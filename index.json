@@ -165,6 +165,7 @@
       "Foxeer Harvey",
       "FPVian",
       "Garban",
+      "Gaucho (Nicolas Gauch)",
       "IllusionFpv",
       "Ivan Efimov (Limon)",
       "jappyjan",
@@ -397,6 +398,7 @@
       "rc_link",
       "rc_smoothing",
       "Redpine",
+      "ReMiX",
       "reset",
       "reset statistics",
       "rpm",
@@ -3613,6 +3615,28 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/modes/Gaucho.txt",
+      "hash": "6892b1615f83bb5549fa24fc6e71fe88379aa330c33a25198000278f5a42eff1",
+      "title": "=Gaucho= Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "=Gaucho= (Nicolas Gauch)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/Gaucho_Analog.txt",
       "hash": "3fbb5167a6e8ab97c022d7fc3e3cdaf883c696f17c8cb8f8a38700c9414217eb",
       "title": "=Gaucho= - Analog",
@@ -3629,9 +3653,10 @@
     },
     {
       "fullPath": "presets/4.4/osd/Gaucho_HD-Zero.txt",
-      "hash": "9441adb6a40fb219f64cb1a6eef7335df86cedea72c9d76307f1985719329d39",
+      "hash": "65fa3b65ea2ac1503e388808f4a5346b72f6b54e65b9bee32fdc9f037915859b",
       "title": "=Gaucho= - HD-Zero",
       "firmware_version": [
+        "4.3",
         "4.4"
       ],
       "category": "OSD",
@@ -3641,6 +3666,23 @@
         "HD-Zero"
       ],
       "author": "=Gaucho= (Nicolas Gauch)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/Gaucho_ReMiX_complete_Config.txt",
+      "hash": "39322971d629eb4524a081a9120576a0a9e706b53f756f73a2b7f46c4c462acd",
+      "title": "=Gaucho= ReMiX complete Configuration",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ReMiX"
+      ],
+      "author": "Gaucho (Nicolas Gauch)",
+      "force_options_review": true,
       "priority": 0
     },
     {
@@ -3728,7 +3770,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/Gaucho.txt",
-      "hash": "dfe95c4b0659de3bbf23a0442a908b807635384917cd5c3a5293807b580bf113",
+      "hash": "1fac2c73203cc8b22024409f506896e7dcd7b6ba0c24e23e464eda64c7b61727",
       "title": "=Gaucho= Rate Profiles",
       "firmware_version": [
         "4.4"
