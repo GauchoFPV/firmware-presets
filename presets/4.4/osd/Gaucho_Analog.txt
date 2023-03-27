@@ -9,9 +9,7 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: My standard analog OSD Setup
 #$ DESCRIPTION: 
-#$ DESCRIPTION: OSD Elements Include:
-#$ DESCRIPTION: -----------
-#$ DESCRIPTION: Vbat, Amps, mAh drawn, Armed Time, Time Remaining, VTX Channel, VTX Power, Uplink Power, RSSI, etc...
+#$ DESCRIPTION: OSD Profile 1 for Freestyle, OSD Profile 2 & 3 for long range
 
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
