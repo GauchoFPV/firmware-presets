@@ -9,7 +9,7 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: My standard HD-Zero OSD Setup
 #$ DESCRIPTION: 
-#$ DESCRIPTION: OSD Profile 1 for Freestyle, OSD Profile 2 & 3 for long range
+#$ DESCRIPTION: OSD Profile 1 for Freestyle, OSD Profile 2 & 3 for Long Range
 
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 

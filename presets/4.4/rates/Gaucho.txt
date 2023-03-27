@@ -1,0 +1,85 @@
+#$ TITLE: =Gaucho= Rate Profiles
+
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rates
+#$ AUTHOR: =Gaucho= (Nicolas Gauch)
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: My standard rates
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Rate Profile 1 for Freestyle @ 1000°/sec, Rate Profile 2 for Racing @ 530°/sec & Rate Profile 3 for precision @ 250°/sec
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+# rateprofile 0
+rateprofile 0
+set rateprofile_name = Freestyle
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 28
+set roll_expo = 51
+set pitch_expo = 51
+set yaw_expo = 51
+set roll_srate = 100
+set pitch_srate = 100
+set yaw_srate = 100
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
+
+# rateprofile 1
+rateprofile 1
+set rateprofile_name = Race
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 17
+set pitch_rc_rate = 17
+set yaw_rc_rate = 17
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 40
+set roll_srate = 53
+set pitch_srate = 53
+set yaw_srate = 53
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
+
+# rateprofile 2
+rateprofile 2
+set rateprofile_name = Precision
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 9
+set pitch_rc_rate = 9
+set yaw_rc_rate = 9
+set roll_expo = 36
+set pitch_expo = 36
+set yaw_expo = 36
+set roll_srate = 25
+set pitch_srate = 25
+set yaw_srate = 25
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0

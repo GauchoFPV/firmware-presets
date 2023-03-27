@@ -3629,7 +3629,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/Gaucho_HD-Zero.txt",
-      "hash": "2999b0ca303cfa04126e0d81bfbd7c85798279f6a09568e652848689dfc6508c",
+      "hash": "9441adb6a40fb219f64cb1a6eef7335df86cedea72c9d76307f1985719329d39",
       "title": "=Gaucho= - HD-Zero",
       "firmware_version": [
         "4.4"
@@ -3725,6 +3725,21 @@
       "author": "Daniel Appel / Tehllama",
       "force_options_review": true,
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/Gaucho.txt",
+      "hash": "dfe95c4b0659de3bbf23a0442a908b807635384917cd5c3a5293807b580bf113",
+      "title": "=Gaucho= Rate Profiles",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rates"
+      ],
+      "author": "=Gaucho= (Nicolas Gauch)",
+      "priority": 10000
     },
     {
       "fullPath": "presets/4.4/rc_link/reset_to_defaults.txt",
