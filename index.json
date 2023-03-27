@@ -321,6 +321,7 @@
       "gyroflow",
       "HD",
       "HD video",
+      "HD-Zero",
       "HDzero",
       "Headsup",
       "HighKV",
@@ -3622,6 +3623,22 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "analog"
+      ],
+      "author": "=Gaucho= (Nicolas Gauch)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/Gaucho_HD-Zero.txt",
+      "hash": "2999b0ca303cfa04126e0d81bfbd7c85798279f6a09568e652848689dfc6508c",
+      "title": "=Gaucho= - HD-Zero",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "HDZero",
+        "HD-Zero"
       ],
       "author": "=Gaucho= (Nicolas Gauch)",
       "priority": 0
