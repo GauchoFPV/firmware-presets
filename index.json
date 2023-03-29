@@ -383,6 +383,7 @@
       "pro32",
       "profile",
       "Pure Race",
+      "QAV210",
       "quaddiction",
       "quick",
       "race",
@@ -3666,6 +3667,23 @@
         "HD-Zero"
       ],
       "author": "=Gaucho= (Nicolas Gauch)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/Gaucho_QAV210_complete_Config.txt",
+      "hash": "b6f7dd64fa71caacdbab2a086364c415c346f11f2b7211531d95f5d16af82e9a",
+      "title": "=Gaucho= QAV210 complete Configuration",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "QAV210"
+      ],
+      "author": "Gaucho (Nicolas Gauch)",
+      "force_options_review": true,
       "priority": 0
     },
     {
