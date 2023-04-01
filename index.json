@@ -3654,7 +3654,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/Gaucho_HD-Zero.txt",
-      "hash": "65fa3b65ea2ac1503e388808f4a5346b72f6b54e65b9bee32fdc9f037915859b",
+      "hash": "46a21568cb39aba84934b2fbcc13b9c29b11823406433499bcf1352d0f1cdc13",
       "title": "=Gaucho= - HD-Zero",
       "firmware_version": [
         "4.3",
@@ -3688,7 +3688,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Gaucho_ReMiX_complete_Config.txt",
-      "hash": "39322971d629eb4524a081a9120576a0a9e706b53f756f73a2b7f46c4c462acd",
+      "hash": "11d768d17612a57ab2cb14934b0e66f73f77159792cc4773e5382d42ac60ece9",
       "title": "=Gaucho= ReMiX complete Configuration",
       "firmware_version": [
         "4.3",
