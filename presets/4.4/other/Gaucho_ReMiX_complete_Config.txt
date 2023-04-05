@@ -108,6 +108,8 @@ rxfail 3 s 1300
 rxfail 5 s 1500
 
 # master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
 set dyn_notch_min_hz = 150
 set acc_lpf_hz = 10
 set acc_calibration = -14,85,104,1
@@ -118,7 +120,8 @@ set rx_max_usec = 2050
 set blackbox_device = SPIFLASH
 set min_throttle = 1035
 set dshot_idle_value = 100
-set motor_pwm_protocol = DSHOT600
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 set failsafe_delay = 5
 set failsafe_switch_mode = STAGE2
@@ -126,7 +129,7 @@ set failsafe_procedure = GPS-RESCUE
 set align_board_pitch = 180
 set bat_capacity = 1300
 set vbat_max_cell_voltage = 440
-set current_meter = ESC
+set current_meter = ADC
 set beeper_dshot_beacon_tone = 4
 set yaw_motors_reversed = ON
 set small_angle = 180
@@ -143,6 +146,7 @@ set gps_rescue_throttle_max = 1800
 set gps_rescue_throttle_hover = 1300
 set gps_rescue_min_sats = 5
 set gps_rescue_allow_arming_without_fix = ON
+set pid_process_denom = 2
 set osd_warn_bitmask = 155647
 set osd_rssi_alarm = 40
 set osd_cap_alarm = 900
