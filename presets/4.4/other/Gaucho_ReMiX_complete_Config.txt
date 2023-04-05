@@ -98,7 +98,7 @@ vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
 vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
 vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
 vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 6 IMD6     I FACTORY    0    0    0    0    0    0    0    0
 vtxtable powerlevels 3
 vtxtable powervalues 14 23 0
 vtxtable powerlabels 25 200 0
@@ -147,40 +147,42 @@ set osd_warn_bitmask = 155647
 set osd_rssi_alarm = 40
 set osd_cap_alarm = 900
 set osd_tim1 = 769
-set osd_vbat_pos = 14912
+set osd_vbat_pos = 14880
 set osd_rssi_pos = 59
-set osd_link_quality_pos = 13359
-set osd_link_tx_power_pos = 15375
-set osd_rssi_dbm_pos = 13391
+set osd_link_quality_pos = 13356
+set osd_link_tx_power_pos = 15372
+set osd_rssi_dbm_pos = 13389
 set osd_rsnr_pos = 13423
 set osd_tim_1_pos = 14368
 set osd_throttle_pos = 12640
-set osd_vtx_channel_pos = 14361
-set osd_crosshairs_pos = 12633
-set osd_ah_sbar_pos = 12634
-set osd_ah_pos = 12506
-set osd_current_pos = 15950
-set osd_mah_drawn_pos = 15984
+set osd_vtx_channel_pos = 14360
+set osd_crosshairs_pos = 12632
+set osd_ah_sbar_pos = 12633
+set osd_ah_pos = 12505
+set osd_current_pos = 15883
+set osd_mah_drawn_pos = 15917
 set osd_craft_name_pos = 11
 set osd_gps_speed_pos = 12576
 set osd_gps_lon_pos = 49584
-set osd_gps_lat_pos = 62067
+set osd_gps_lat_pos = 62002
 set osd_gps_sats_pos = 14336
-set osd_home_dir_pos = 12378
-set osd_home_dist_pos = 12344
+set osd_home_dir_pos = 12377
+set osd_home_dist_pos = 12343
 set osd_compass_bar_pos = 398
 set osd_altitude_pos = 28736
-set osd_warnings_pos = 14837
-set osd_avg_cell_voltage_pos = 14944
-set osd_flip_arrow_pos = 14586
+set osd_warnings_pos = 14836
+set osd_avg_cell_voltage_pos = 14848
+set osd_flip_arrow_pos = 14585
 set osd_efficiency_pos = 12608
-set osd_sys_vtx_temp_pos = 14355
+set osd_sys_vtx_temp_pos = 14354
 set osd_stat_bitmask = 48449341
 set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
 set debug_mode = SMARTAUDIO
 set vtx_band = 5
 set vtx_channel = 8
-set vtx_low_power_disarm = UNTIL_FIRST_ARM
+set vtx_power = 2
 set vtx_freq = 5917
 set vcd_video_system = HD
 set gyro_1_sensor_align = CW180
