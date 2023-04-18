@@ -39,14 +39,13 @@ resource LED 1 NONE
 
 # feature
 feature -TELEMETRY
+feature SOFTSERIAL
 feature GPS
 feature OSD
-feature ESC_SENSOR
 
 # serial
 serial 0 0 115200 57600 0 115200
 serial 3 2 115200 57600 0 115200
-serial 4 1024 115200 57600 0 115200
 serial 5 131073 115200 57600 0 115200
 
 # beeper
@@ -81,10 +80,9 @@ map TAER1234
 aux 0 0 4 1900 2100 0 0
 aux 1 1 1 1400 1600 0 0
 aux 2 2 1 1900 2100 0 0
-aux 3 46 2 1400 1600 0 0
-aux 4 13 2 1900 2100 0 0
-aux 5 35 5 1900 2100 0 0
-aux 6 49 3 900 1075 0 0
+aux 3 13 2 1900 2100 0 0
+aux 4 35 5 1900 2100 0 0
+aux 5 49 3 900 1075 0 0
 
 # adjrange
 adjrange 0 0 0 900 2100 12 0 0 0
@@ -125,11 +123,11 @@ set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 set failsafe_delay = 5
 set failsafe_switch_mode = STAGE2
-set failsafe_procedure = GPS-RESCUE
 set align_board_pitch = 180
 set bat_capacity = 1300
 set vbat_max_cell_voltage = 440
 set current_meter = ADC
+set ibata_scale = 280
 set beeper_dshot_beacon_tone = 4
 set yaw_motors_reversed = ON
 set small_angle = 180
@@ -158,15 +156,15 @@ set osd_link_tx_power_pos = 15372
 set osd_rssi_dbm_pos = 13389
 set osd_rsnr_pos = 13423
 set osd_tim_1_pos = 14368
-set osd_throttle_pos = 12640
+set osd_throttle_pos = 12608
 set osd_vtx_channel_pos = 14360
-set osd_crosshairs_pos = 12632
-set osd_ah_sbar_pos = 12633
-set osd_ah_pos = 12505
+set osd_crosshairs_pos = 12600
+set osd_ah_sbar_pos = 12601
+set osd_ah_pos = 12474
 set osd_current_pos = 15883
 set osd_mah_drawn_pos = 15917
 set osd_craft_name_pos = 11
-set osd_gps_speed_pos = 12576
+set osd_gps_speed_pos = 12544
 set osd_gps_lon_pos = 49584
 set osd_gps_lat_pos = 62002
 set osd_gps_sats_pos = 14336
@@ -174,12 +172,11 @@ set osd_home_dir_pos = 12377
 set osd_home_dist_pos = 12343
 set osd_compass_bar_pos = 398
 set osd_altitude_pos = 28736
-set osd_warnings_pos = 14836
 set osd_avg_cell_voltage_pos = 14848
 set osd_flip_arrow_pos = 14585
-set osd_efficiency_pos = 12608
+set osd_efficiency_pos = 12576
 set osd_sys_vtx_temp_pos = 14354
-set osd_stat_bitmask = 48449341
+set osd_stat_bitmask = 48746493
 set osd_displayport_device = MSP
 set osd_canvas_width = 50
 set osd_canvas_height = 18
