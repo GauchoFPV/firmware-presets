@@ -83,17 +83,18 @@ adjrange 1 0 0 900 2100 29 0 0 0
 # vtxtable
 vtxtable bands 6
 vtxtable channels 8
-vtxtable band 1 BOSCAM_A A CUSTOM     0    0    0    0    0    0    0    0
-vtxtable band 2 BOSCAM_B B CUSTOM     0    0    0    0    0    0    0    0
-vtxtable band 3 BOSCAM_E E CUSTOM     0    0    0    0    0    0    0    0
-vtxtable band 4 FATSHARK F CUSTOM     0 5760    0 5800    0    0    0    0
-vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
-vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I FACTORY    0    0    0    0    0    0    0    0
 vtxtable powerlevels 5
 vtxtable powervalues 14 23 27 30 0
 vtxtable powerlabels 25 200 500 MAX 0
 
 # rxfail
+rxfail 3 s 1400
 rxfail 5 s 1500
 
 # master
@@ -104,7 +105,8 @@ set baro_hardware = NONE
 set min_check = 1000
 set max_check = 2000
 set blackbox_device = NONE
-set dshot_idle_value = 300
+set min_throttle = 1035					   
+set dshot_idle_value = 150
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set failsafe_delay = 5
@@ -113,8 +115,9 @@ set failsafe_procedure = GPS-RESCUE
 set align_board_pitch = 180
 set bat_capacity = 1300
 set vbat_max_cell_voltage = 440
-set current_meter = ESC
+set current_meter = ADC
 set battery_meter = ADC
+set ibata_scale = 270
 set yaw_motors_reversed = ON
 set small_angle = 180
 set gps_sbas_mode = EGNOS
@@ -130,46 +133,47 @@ set gps_rescue_throttle_max = 1800
 set gps_rescue_throttle_hover = 1300
 set gps_rescue_min_sats = 5
 set gps_rescue_allow_arming_without_fix = ON
-set pid_process_denom = 4
+set pid_process_denom = 2
+set osd_warn_bitmask = 155647
 set osd_rssi_alarm = 40
 set osd_cap_alarm = 900
 set osd_tim1 = 769
-set osd_vbat_pos = 14912
+set osd_vbat_pos = 14880
 set osd_rssi_pos = 59
-set osd_link_quality_pos = 13359
-set osd_link_tx_power_pos = 15375
-set osd_rssi_dbm_pos = 13391
+set osd_link_quality_pos = 13356
+set osd_link_tx_power_pos = 15372
+set osd_rssi_dbm_pos = 13389
 set osd_rsnr_pos = 13423
 set osd_tim_1_pos = 14368
-set osd_throttle_pos = 12640
-set osd_vtx_channel_pos = 14361
-set osd_crosshairs_pos = 12633
-set osd_ah_sbar_pos = 12634
-set osd_ah_pos = 12506
-set osd_current_pos = 15950
-set osd_mah_drawn_pos = 15984
+set osd_throttle_pos = 12608
+set osd_vtx_channel_pos = 14357
+set osd_crosshairs_pos = 12600
+set osd_ah_sbar_pos = 12601
+set osd_ah_pos = 12474
+set osd_current_pos = 15883
+set osd_mah_drawn_pos = 15917
 set osd_craft_name_pos = 11
-set osd_gps_speed_pos = 12576
+set osd_gps_speed_pos = 12544
 set osd_gps_lon_pos = 49584
-set osd_gps_lat_pos = 62067
+set osd_gps_lat_pos = 62002
 set osd_gps_sats_pos = 14336
-set osd_home_dir_pos = 12378
-set osd_home_dist_pos = 12344
+set osd_home_dir_pos = 12377
+set osd_home_dist_pos = 12343
 set osd_compass_bar_pos = 398
 set osd_altitude_pos = 28736
-set osd_warnings_pos = 14837
-set osd_avg_cell_voltage_pos = 14944
-set osd_flip_arrow_pos = 14586
-set osd_efficiency_pos = 12608
-set osd_sys_vtx_temp_pos = 12307
-set osd_stat_bitmask = 48449341
+set osd_avg_cell_voltage_pos = 14848
+set osd_flip_arrow_pos = 14585
+set osd_efficiency_pos = 12576
+set osd_stat_bitmask = 48746493
 set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
 set debug_mode = SMARTAUDIO
 set vtx_band = 5
 set vtx_channel = 8
 set vtx_power = 4
-set vtx_low_power_disarm = UNTIL_FIRST_ARM
 set vtx_freq = 5917
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
 set vcd_video_system = HD
 set gyro_1_sensor_align = CW0
 set gyro_1_align_yaw = 0
