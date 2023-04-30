@@ -74,7 +74,9 @@ aux 2 2 1 1900 2100 0 0
 aux 3 46 2 1400 1600 0 0
 aux 4 13 2 1900 2100 0 0
 aux 5 35 5 1900 2100 0 0
-aux 6 49 3 900 1075 0 0
+aux 6 39 4 900 1100 0 0
+aux 7 48 4 1900 2100 0 0
+aux 8 49 3 900 1100 0 0
 
 # adjrange
 adjrange 0 0 0 900 2100 12 0 0 0
@@ -105,7 +107,7 @@ set baro_hardware = NONE
 set min_check = 1000
 set max_check = 2000
 set blackbox_device = NONE
-set min_throttle = 1035					   
+set min_throttle = 1035
 set dshot_idle_value = 150
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
@@ -117,7 +119,6 @@ set bat_capacity = 1300
 set vbat_max_cell_voltage = 440
 set current_meter = ADC
 set battery_meter = ADC
-set ibata_scale = 270
 set yaw_motors_reversed = ON
 set small_angle = 180
 set gps_sbas_mode = EGNOS
@@ -171,9 +172,8 @@ set osd_canvas_height = 18
 set debug_mode = SMARTAUDIO
 set vtx_band = 5
 set vtx_channel = 8
-set vtx_power = 4
+set vtx_power = 1
 set vtx_freq = 5917
-set vtx_low_power_disarm = UNTIL_FIRST_ARM
 set vcd_video_system = HD
 set gyro_1_sensor_align = CW0
 set gyro_1_align_yaw = 0
