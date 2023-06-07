@@ -1,0 +1,55 @@
+#$ TITLE: =Gaucho= - HD-Zero
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: HDZero, HD-Zero
+#$ AUTHOR: =Gaucho= (Nicolas Gauch)
+ 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: My standard HD-Zero OSD Setup
+#$ DESCRIPTION: 
+#$ DESCRIPTION: OSD Profile 1 for Freestyle, OSD Profile 2 & 3 for Long Range
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+feature OSD
+set pilot_name = [\]^_
+
+set osd_warn_bitmask = 155647
+set osd_rssi_alarm = 40
+set osd_cap_alarm = 900
+set osd_tim1 = 769
+set osd_vbat_pos = 14880
+set osd_rssi_pos = 59
+set osd_link_quality_pos = 13356
+set osd_link_tx_power_pos = 15372
+set osd_rssi_dbm_pos = 13389
+set osd_rsnr_pos = 13423
+set osd_tim_1_pos = 14368
+set osd_throttle_pos = 12608
+set osd_vtx_channel_pos = 21
+set osd_crosshairs_pos = 12600
+set osd_ah_sbar_pos = 12601
+set osd_ah_pos = 12474
+set osd_current_pos = 15883
+set osd_mah_drawn_pos = 15917
+set osd_craft_name_pos = 11
+set osd_pilot_name_pos = 14359
+set osd_gps_speed_pos = 12544
+set osd_gps_lon_pos = 49584
+set osd_gps_lat_pos = 62002
+set osd_gps_sats_pos = 14336
+set osd_home_dir_pos = 12377
+set osd_home_dist_pos = 12343
+set osd_compass_bar_pos = 398
+set osd_altitude_pos = 28736
+set osd_avg_cell_voltage_pos = 14848
+set osd_flip_arrow_pos = 14585
+set osd_efficiency_pos = 12576
+set osd_stat_bitmask = 48746493
+set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set vcd_video_system = HD
