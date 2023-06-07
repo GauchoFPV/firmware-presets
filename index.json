@@ -3710,10 +3710,9 @@
     },
     {
       "fullPath": "presets/4.4/osd/Gaucho_HD-Zero.txt",
-      "hash": "7a207b908816ce62d1fc0006334d52e1a3a6caf32391a31a5b7ff0a96761bde6",
+      "hash": "b8b77b7b66cf908ab421f97af0d5f36af6a449776947e8232d37e5043d8143e7",
       "title": "=Gaucho= - HD-Zero",
       "firmware_version": [
-        "4.3",
         "4.4"
       ],
       "category": "OSD",
