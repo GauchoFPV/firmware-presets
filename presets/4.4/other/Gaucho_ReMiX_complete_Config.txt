@@ -157,13 +157,14 @@ set osd_rssi_dbm_pos = 13389
 set osd_rsnr_pos = 13423
 set osd_tim_1_pos = 14368
 set osd_throttle_pos = 12608
-set osd_vtx_channel_pos = 14357
+set osd_vtx_channel_pos = 21
 set osd_crosshairs_pos = 12600
 set osd_ah_sbar_pos = 12601
 set osd_ah_pos = 12474
 set osd_current_pos = 15883
 set osd_mah_drawn_pos = 15917
 set osd_craft_name_pos = 11
+set osd_pilot_name_pos = 14359
 set osd_gps_speed_pos = 12544
 set osd_gps_lon_pos = 49584
 set osd_gps_lat_pos = 62002
@@ -189,7 +190,7 @@ set vcd_video_system = HD
 set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 1800
 set craft_name = REMiX
-set pilot_name = =Gaucho=
+set pilot_name = [\]^_
 
 profile 0
 

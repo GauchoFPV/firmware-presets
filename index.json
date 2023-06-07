@@ -3743,7 +3743,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Gaucho_QAV210_complete_Config.txt",
-      "hash": "e042583a599fe42a7994db266a9731eb5f782f4a37446570dadbed383e1e6976",
+      "hash": "562fde7045316bccb5c4a0687677663001049b0b7d49375c7a17d395cb89d0fb",
       "title": "=Gaucho= QAV210 complete Configuration",
       "firmware_version": [
         "4.3",
@@ -3760,7 +3760,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Gaucho_ReMiX_complete_Config.txt",
-      "hash": "6a6b9319c762f08bc14ce11e5fbd7d112c167500e12fe61131107f33cabb9ca3",
+      "hash": "baacf3abf43dadc79a7deaad3f62f721c354fbd38b9caf530b5196bfbf70974b",
       "title": "=Gaucho= ReMiX complete Configuration",
       "firmware_version": [
         "4.3",
