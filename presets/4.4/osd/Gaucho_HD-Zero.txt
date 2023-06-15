@@ -1,5 +1,4 @@
 #$ TITLE: =Gaucho= - HD-Zero
-#$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
@@ -26,13 +25,13 @@ set osd_rssi_dbm_pos = 13389
 set osd_rsnr_pos = 13423
 set osd_tim_1_pos = 14368
 set osd_throttle_pos = 12608
-set osd_vtx_channel_pos = 14360
 set osd_crosshairs_pos = 12600
 set osd_ah_sbar_pos = 12601
 set osd_ah_pos = 12474
 set osd_current_pos = 15883
 set osd_mah_drawn_pos = 15917
 set osd_craft_name_pos = 11
+set osd_pilot_name_pos = 14359
 set osd_gps_speed_pos = 12544
 set osd_gps_lon_pos = 49584
 set osd_gps_lat_pos = 62002
@@ -44,9 +43,14 @@ set osd_altitude_pos = 28736
 set osd_avg_cell_voltage_pos = 14848
 set osd_flip_arrow_pos = 14585
 set osd_efficiency_pos = 12576
-set osd_sys_vtx_temp_pos = 14354
 set osd_stat_bitmask = 48746493
 set osd_displayport_device = MSP
 set osd_canvas_width = 50
 set osd_canvas_height = 18
 set vcd_video_system = HD
+
+#$ OPTION BEGIN (UNCHECKED): all HDZERO VTXs except unlocked Freestyle
+
+
+#$ OPTION BEGIN (UNCHECKED): only for HDZERO unlocked Freestyle VTX
+
